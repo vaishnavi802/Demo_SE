@@ -5,6 +5,7 @@ const crypto = require('crypto');
 const validator = require('validator');
 const { log } = require('console');
 
+// details of user 
 const userSchema = new mongoose.Schema({
     name: {
         type: String,
